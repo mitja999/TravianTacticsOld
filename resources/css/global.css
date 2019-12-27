@@ -1,0 +1,53 @@
+#menu{
+	position:relative;
+	z-index:1;
+	top:0;
+	left:0;
+	padding:2px;
+	margin:0px;
+	list-style:none;
+}
+li ul{
+	position:relative;
+	display:none;
+	padding:2px;
+	margin:0px;
+	list-style:none;
+}
+li{
+	position:relative;
+	background-color:#ffffff;
+	border:1px solid black;
+	padding:2px;
+	margin:0px;
+	color:#000000;
+}
+.subMenu{
+	background-repeat:no-repeat;
+}
+.click{
+	background-color:#fa551a;
+	color:#fffab5;
+}
+.click ul{
+	display:block;
+}
+.hover, ul li a:hover{
+	cursor:pointer;
+	background-color:#fa551a;
+	color:#FFFAB5;
+}
+li ul li.hover, li ul li.hover a:hover{
+	background-color:#fa7d50;
+}
+li a{
+	width:100%;
+}
+li a, li ul li a, li.hover ul li a{
+	text-decoration:none;
+	color:#000000;
+}
+li.hover a, li ul li.hover a{
+	color:#fffab5;
+	text-decoration:underline;
+}

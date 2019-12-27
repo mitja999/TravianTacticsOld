@@ -1,0 +1,22 @@
+<?php
+$IframeLink=$_GET["link"];
+$PraviLink1=split('travian',$IframeLink);
+$PraviLink1=count($PraviLink1);
+$PraviLink2=split('/dorf1.php',$IframeLink);
+$PraviLink2=count($PraviLink2);
+if($IframeLink=="")
+{
+include("zacetek.php");
+include("konec.php");
+}
+elseif($PraviLink1>1&&$PraviLink2>1)
+{
+include("stran227.php");
+}
+else
+{
+include("zacetek.php");
+echo "<div>Invalid link</div>";
+include("konec.php");
+}
+?>

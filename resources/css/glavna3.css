@@ -1,0 +1,266 @@
+ .tooltip{
+    display:none;
+    background-color:rgba(255,255,255,0.95);
+    padding:10px 10px 10px 10px;
+border-radius:10px;
+    font-size:11px;
+    color:#fff;
+z-index:9999999!important;
+  }
+
+.trenutnafarma {
+background-color: orange;
+border:5px solid red;
+}
+
+
+
+.village1 {
+background-color: #e17373;
+}
+.village1dark {
+	background-color: #8a5353;
+}
+.village1darkdark {
+	  background-color: #b45c5c;
+}
+
+.Vrstica2 {
+  height: 160px;
+}
+.Celica2 {
+  width: 160px;
+}
+.Celica0 {
+  width: 0px;
+}
+.divScrollAuto1 {
+   height:180px;
+   width:1000px;
+   overflow:auto;
+	overflow-x: none;
+   white-space:nowrap;
+   }
+.divScrollAuto2 {
+   height:180px;
+   width:1000px;
+   overflow:auto;
+	overflow-x: none;
+   white-space:nowrap;
+   }
+.divScrollAuto3 {
+   height:180px;
+   width:1000px;
+	overflow-x: none;
+	overflow-y: scroll;
+overflow: -moz-scrollbars-vertical;
+   white-space:nowrap;
+   }
+.PrikaziOviro {
+  position: fixed;
+  z-index: 500;
+  left: 0em;
+ top: 0em;
+  background: transparent;
+}
+.DivReklame {
+  overflow:hidden;
+  z-index: 5000;
+   height:100%;
+}
+#DivFarmlist {
+   height:160px;
+   width: 100%;
+     border: 1px solid #527fa2;
+   overflow:auto;
+     background: #9CCCF0;
+align:center;
+}
+#CakalnaVrsta {
+   height:160px;
+   width: 100%;
+   overflow:auto;
+     border: 1px solid #527fa2;
+     background: #9CCCF0;
+}
+#DivGlavnoOkno {
+   height:160px;
+   width: 100%;
+     border: 1px solid #527fa2;
+   overflow:auto;
+     background: #9CCCF0;
+     text-align: center;
+     color: #FF4141;
+}
+#CropFinder {
+   width:90%;
+   height:90%;
+     background: #9CCCF0;
+-moz-border-radius: 20px;    
+-webkit-border-radius: 20px;    
+border-radius: 20px;    
+border: 3px solid; 
+border-color:#000099;
+}
+.PojavnoOkno {
+   width:90%;
+   height:90%;
+     background: #9CCCF0;
+-moz-border-radius: 20px;    
+-webkit-border-radius: 20px;    
+border-radius: 20px;    
+border: 3px solid; 
+border-color:#000099;
+position: fixed; left: 5%; top: 5%;  overflow:auto; color: #000000; background-color:#85C2FF;
+}
+#PojavnoOkno {
+   width:90%;
+   height:90%;
+    background: #9CCCF0;
+}
+
+.buttonlink{
+	display:block;
+	border-style:solid;
+	border-color:#bbb #888 #666 #aaa;
+	border-width:3px 4px 4px 3px;
+	height:2em;
+	background:#ccc;
+	color:#333;
+	line-height:2;
+	text-align:center;
+	text-decoration:none;
+	font-weight:900;
+	cursor:pointer;
+}
+.buttonlink:hover{
+	border-color: #666 #aaa #bbb #888;
+	border-width:4px 3px 3px 4px;
+	color:#000;
+}
+
+
+.NePrikaziOviro {
+  display: none;
+}
+
+td
+{
+position: relative;
+}
+#testo
+{
+position:relative;
+left:0px;
+top:0px;
+}
+
+
+.Farme
+{
+align:center;
+text-align:center;
+width:100%;
+border-spacing:0;
+}
+
+.Farme td
+{
+align:center;
+}
+
+#PojavnoOkno a
+{
+color:red;	
+}
+
+#CropFinder a
+{
+color:red;	
+}
+
+
+button {
+border: 0 none;
+cursor: pointer;
+padding: 0 15px 0 0;
+text-align: center;
+height: 30px;
+line-height: 30px;
+width: 110px;
+}
+
+button.rounded {
+background: transparent url( btn_right.png ) no-repeat scroll right top;
+clear: left;
+font-size: 0.7em;
+}
+
+button span {
+display: block;
+padding: 0 0 0 15px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.rounded span {
+background: transparent url( btn_left.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.rounded:hover {
+background-position: 100% -30px;
+}
+
+button.rounded:hover span {
+background-position: 0% -30px;
+}
+
+button::-moz-focus-inner {
+border: none;
+}
+
+
+.btnn {
+	display: inline-block;
+	background: url(btn.bg.png) repeat-x 0px 0px;
+	padding:5px 10px 6px 10px;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	border:1px solid rgba(0,0,0,0.4);
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+}
+
+.btnn:hover {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	cursor:pointer;
+	}
+
+.blue		{background-color: #CCCCCC; color: #141414;}
+.blue:hover	{background-color: #00c0ff; color: #ffffff;}
+
+.green		{background-color: #CCCCCC; color: #141414;}
+.green:hover	{background-color: #8aff00; color: #ffffff;}
+
+.red		{background-color: #CCCCCC; color: #141414;}
+.red:hover	{background-color: #ff004e; color: #ffffff;}
+
+
+div.rounded {
+-moz-border-radius: 20px;    -webkit-border-radius: 20px;    border-radius: 20px;    border: 3px solid; border-color:#000099; padding:3px; background-color:#000099;
+}
+
+table.cropTable td {
+text-align:center
+}
+
+.reporttabela td
+{
+border:1px solid #CCCCCC;
+}
+

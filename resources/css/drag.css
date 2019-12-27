@@ -1,0 +1,33 @@
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.column1 {
+background-color: #CCCCCC;
+    border: 2px solid #666666;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 3px #000000 inset;
+    cursor: move;
+    margin-bottom: 3px;
+    margin-right: 2%;
+    padding:4px;
+    text-align: left;
+    width: 98%;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    color: #222222;
+    font-size: 13px;
+    height: auto;
+}
+
+.column1.over {
+  border: 2px dashed #000;
+}
+
+
+
+.column1.nodrop {
+  border: 2px dashed #000;
+}
